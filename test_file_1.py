@@ -27,7 +27,6 @@ class Test_1:
         else:
             print("test cases passed")
             assert False
-    @pytest.mark.xfail(a="imposiible")
     def test_sub(self):
         a=10
         b=5
