@@ -11,6 +11,7 @@ class Test_google_1:
         web.get("https://www.google.com/")
         logo = web.find_element(By.XPATH,"//img[@alt='Google']").is_displayed()
         if logo==True:
+            print("sucess")
             assert True
         else:
             assert False
